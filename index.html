@@ -4,6 +4,7 @@
         <title>A simple calculator</title>
         <meta charset="UTF-8">
         <script src="js/main.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
         <form name="calculator">
@@ -34,8 +35,6 @@
                 <tr>
                    <td><input type="button" id="clear" name="clear" value="c" onclick="clearScreen()"></td>
                    <td><input type="button" name="zero" value="0" onclick="showValueZero()"></td>
-                   <!---
-                   <td><input type="button" name="doit" value="=" onclick="calculator.display.value = eval(calculator.display.value)"></td> -->
                    <td><input type="button" name="doit" id="results" value="=" onclick="showResults()"></td>
                    <td><input type="button" class="operator" name="div" value="/" onclick="showOperatorDivide()"></td>
                 </tr>
